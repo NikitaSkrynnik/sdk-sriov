@@ -16,3 +16,5 @@ require (
 	golang.org/x/sys v0.0.0-20220307203707-22a9840ba4d7
 	google.golang.org/grpc v1.42.0
 )
+
+replace github.com/networkservicemesh/sdk-kernel => github.com/NikitaSkrynnik/sdk-kernel v0.0.0-20220321082030-704de772333a
