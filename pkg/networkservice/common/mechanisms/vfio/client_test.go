@@ -14,12 +14,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-<<<<<<< Updated upstream
-//+build !windows
-=======
 //go:build !windows && perm
 // +build !windows,perm
->>>>>>> Stashed changes
 
 package vfio_test
 
