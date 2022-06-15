@@ -118,7 +118,7 @@ func TestVFIOClient_Request(t *testing.T) {
 type vfioForwarderStub struct {
 	iommuGroup  uint
 	vfioMajor   uint32
-	vfioMinor   uint32
+	vfioMinor   uint64
 	deviceMajor uint32
 	deviceMinor uint32
 }
