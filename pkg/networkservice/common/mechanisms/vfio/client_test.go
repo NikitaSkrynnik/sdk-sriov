@@ -71,7 +71,7 @@ func testServer(ctx context.Context, tmpDir string) (*grpc.ClientConn, error) {
 	return grpc.DialContext(ctx, socketURL.String(), grpc.WithInsecure())
 }
 
-func TestVFIOClient_Request(t *testing.T) {
+func TestVFIOClient_RequestPerm(t *testing.T) {
 	defer goleak.VerifyNone(t, goleak.IgnoreCurrent())
 
 	ctx, cancel := context.WithTimeout(context.TODO(), 10*time.Second)
@@ -118,7 +118,7 @@ func TestVFIOClient_Request(t *testing.T) {
 type vfioForwarderStub struct {
 	iommuGroup  uint
 	vfioMajor   uint32
-	vfioMinor   uint64
+	vfioMinor   uint32
 	deviceMajor uint32
 	deviceMinor uint32
 }
