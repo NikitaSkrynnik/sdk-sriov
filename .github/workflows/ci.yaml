@@ -6,9 +6,6 @@ on:
     branches:
       - 'release/**'
 jobs:
-  yamllint:
-    uses: networkservicemesh/.github/.github/workflows/yamllint.yaml@main
-
   build-and-test:
     name: build and test
     runs-on: ${{ matrix.os }}
@@ -21,32 +18,16 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v1
         with:
-          go-version: 1.16
+          go-version: 1.18.1
       - name: Build
         run: go build -race  ./...
       - name: Test
-        if: matrix.os != 'windows-latest'
-        run: sudo -E PATH="$PATH" bash -c "go test -race ./..."
-      - name: Test
-        if: matrix.os == 'windows-latest'
         run: go test -race ./...
-
-  golangci-lint:
-    uses: networkservicemesh/.github/.github/workflows/golangci-lint.yaml@main
-
-  exclude-fmt-errorf:
-    uses: networkservicemesh/.github/.github/workflows/exclude-fmt-errorf.yaml@main
-
-  restrict-nsm-deps:
-    uses: networkservicemesh/.github/.github/workflows/restrict-nsm-deps.yaml@main
-    with:
-      allowed_repositories: "api, sdk, sdk-kernel"
-
-  checkgomod:
-    uses: networkservicemesh/.github/.github/workflows/checkgomod.yaml@main
-
-  gogenerate:
-    uses: networkservicemesh/.github/.github/workflows/gogenerate.yaml@main
-
-  exclude-replace:
-    uses: networkservicemesh/.github/.github/workflows/exclude-replace.yaml@main
+      - name: Test with permissions
+        if: ${{ !contains(matrix.os, 'windows') }}
+        run: |
+          count=$(go test ./... --list Perm -tags perm | grep Perm | wc -l)
+          echo $count
+          if [ $count -gt 0 ]; then
+            sudo -E PATH="$PATH" bash -c "go test -race -run Perm ./... -tags=perm"
+          fi
