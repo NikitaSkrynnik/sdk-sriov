@@ -35,10 +35,10 @@ github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/NikitaSkrynnik/api v1.0.1-0.20230711064101-51396a9946fc h1:yMHA//UiNxW0WKekqIPvKBvIheAVmNiaMe0eMoxBBOg=
 github.com/NikitaSkrynnik/api v1.0.1-0.20230711064101-51396a9946fc/go.mod h1:6va68ed+AyiYRSNK/RQ91XEZdYHDfb6xVyBzjVhlGVs=
-github.com/NikitaSkrynnik/sdk v0.5.1-0.20230711090343-6d55d1862089 h1:kNCiDrhrJpzNkgJzY7t4v22x6DVIGNO1tJRwYlHVxQE=
-github.com/NikitaSkrynnik/sdk v0.5.1-0.20230711090343-6d55d1862089/go.mod h1:zmGb/Hc6WN95sfc0vf5cz6IdbsaY/t76jtFlaMnIrB8=
-github.com/NikitaSkrynnik/sdk-kernel v0.0.0-20230711090551-5ebfd09e8d29 h1:8osgrh8va8+4gkrdJZpVzvx8cTrzDWSneEv5atDIwWw=
-github.com/NikitaSkrynnik/sdk-kernel v0.0.0-20230711090551-5ebfd09e8d29/go.mod h1:AAEC3efcocD42XvychQpQSM9L7rccXLc1xdzHN1sj6I=
+github.com/NikitaSkrynnik/sdk v0.5.1-0.20230711091534-b86b6ba3a146 h1:YAKlcvjmYuVF5AuNX/oMYHkQaaKxodPD2/ALyguCtm0=
+github.com/NikitaSkrynnik/sdk v0.5.1-0.20230711091534-b86b6ba3a146/go.mod h1:zmGb/Hc6WN95sfc0vf5cz6IdbsaY/t76jtFlaMnIrB8=
+github.com/NikitaSkrynnik/sdk-kernel v0.0.0-20230711091725-912ba6ee4afd h1:oeI+56jGRs4B6HOqLP+xVDfdi9oAd6ykGQtVxyzfmcY=
+github.com/NikitaSkrynnik/sdk-kernel v0.0.0-20230711091725-912ba6ee4afd/go.mod h1:v8uBChIeQf/rQiu5bSBp1XKtM3HhnqkonndBNh7KlQQ=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
 github.com/OneOfOne/xxhash v1.2.8 h1:31czK/TI9sNkxIKfaUfGlU47BAxQ0ztGgd9vPyqimf8=
 github.com/OneOfOne/xxhash v1.2.8/go.mod h1:eZbhyaAYD41SGSSsnmcpxVoRiQ/MPUTjUdIIOT9Um7Q=
