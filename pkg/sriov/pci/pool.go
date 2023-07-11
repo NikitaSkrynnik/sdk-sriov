@@ -28,10 +28,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov"
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov/config"
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov/pcifunction"
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov/sriovtest"
+	"github.com/NikitaSkrynnik/sdk-sriov/pkg/sriov"
+	"github.com/NikitaSkrynnik/sdk-sriov/pkg/sriov/config"
+	"github.com/NikitaSkrynnik/sdk-sriov/pkg/sriov/pcifunction"
+	"github.com/NikitaSkrynnik/sdk-sriov/pkg/sriov/sriovtest"
 )
 
 const (

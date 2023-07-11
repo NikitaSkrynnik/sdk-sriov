@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov/config"
+	"github.com/NikitaSkrynnik/sdk-sriov/pkg/sriov/config"
 )
 
 const (

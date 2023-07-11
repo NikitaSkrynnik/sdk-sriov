@@ -27,7 +27,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/tools/cgroup"
+	"github.com/NikitaSkrynnik/sdk-sriov/pkg/tools/cgroup"
 )
 
 const (

@@ -23,9 +23,9 @@
 package token
 
 import (
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/networkservice/common/token/multitoken"
+	"github.com/NikitaSkrynnik/sdk-sriov/pkg/networkservice/common/token/multitoken"
 )
 
 // NewClient returns a new token client chain element

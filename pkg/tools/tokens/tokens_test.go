@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/tools/tokens"
+	"github.com/NikitaSkrynnik/sdk-sriov/pkg/tools/tokens"
 )
 
 func TestToEnv(t *testing.T) {

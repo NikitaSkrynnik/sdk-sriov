@@ -32,15 +32,15 @@ import (
 	"golang.org/x/sys/unix"
 	"google.golang.org/grpc"
 
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
+	vfiomech "github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/vfio"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/common/mechanisms"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/core/chain"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/core/next"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/grpcutils"
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	vfiomech "github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/vfio"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/mechanisms"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/networkservice/common/mechanisms/vfio"
+	"github.com/NikitaSkrynnik/sdk-sriov/pkg/networkservice/common/mechanisms/vfio"
 )
 
 const (

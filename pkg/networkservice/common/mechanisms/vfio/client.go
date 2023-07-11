@@ -24,17 +24,17 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/utils/inject/injecterror"
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/inject/injecterror"
 	"golang.org/x/sys/unix"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/vfio"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/vfio"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/core/next"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/tools/cgroup"
+	"github.com/NikitaSkrynnik/sdk-sriov/pkg/tools/cgroup"
 )
 
 type vfioClient struct {

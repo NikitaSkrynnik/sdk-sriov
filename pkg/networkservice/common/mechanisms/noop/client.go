@@ -23,10 +23,10 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/cls"
-	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/noop"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/cls"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/noop"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/core/next"
 )
 
 type noopClient struct{}

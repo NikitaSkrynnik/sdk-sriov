@@ -25,13 +25,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/kernel"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/core/chain"
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/networkservice/common/token"
-	"github.com/networkservicemesh/sdk-sriov/pkg/tools/tokens"
+	"github.com/NikitaSkrynnik/sdk-sriov/pkg/networkservice/common/token"
+	"github.com/NikitaSkrynnik/sdk-sriov/pkg/tools/tokens"
 )
 
 const (

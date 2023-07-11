@@ -22,7 +22,7 @@ package multitoken
 import (
 	"sync"
 
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
 )
 
 type tokenElement struct {

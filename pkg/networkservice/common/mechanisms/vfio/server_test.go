@@ -26,18 +26,18 @@ import (
 	"testing"
 	"time"
 
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/cls"
+	vfiomech "github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/vfio"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/common/mechanisms"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/core/chain"
 	"github.com/google/uuid"
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/cls"
-	vfiomech "github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/vfio"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/mechanisms"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 	"golang.org/x/sys/unix"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/networkservice/common/mechanisms/vfio"
-	"github.com/networkservicemesh/sdk-sriov/pkg/tools/cgroup"
+	"github.com/NikitaSkrynnik/sdk-sriov/pkg/networkservice/common/mechanisms/vfio"
+	"github.com/NikitaSkrynnik/sdk-sriov/pkg/tools/cgroup"
 )
 
 const (
@@ -84,7 +84,7 @@ func testCgroups(ctx context.Context, t *testing.T, tmpDir string) (notAllowed, 
 }
 
 func TestVFIOServer_Request(t *testing.T) {
-	t.Skip("https://github.com/networkservicemesh/sdk-sriov/issues/336")
+	t.Skip("https://github.com/NikitaSkrynnik/sdk-sriov/issues/336")
 
 	defer goleak.VerifyNone(t, goleak.IgnoreCurrent())
 
@@ -160,7 +160,7 @@ func TestVFIOServer_Request(t *testing.T) {
 }
 
 func TestVFIOServer_Close(t *testing.T) {
-	t.Skip("https://github.com/networkservicemesh/sdk-sriov/issues/336")
+	t.Skip("https://github.com/NikitaSkrynnik/sdk-sriov/issues/336")
 
 	defer goleak.VerifyNone(t, goleak.IgnoreCurrent())
 
