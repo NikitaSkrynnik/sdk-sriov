@@ -4,8 +4,8 @@ go 1.18
 
 require (
 	github.com/NikitaSkrynnik/api v1.0.1-0.20230711064101-51396a9946fc
-	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230712072113-f66ab1de5cd5
-	github.com/NikitaSkrynnik/sdk-kernel v0.0.0-20230712072244-7fd9fa9f7040
+	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230713061422-bf4718c1cfef
+	github.com/NikitaSkrynnik/sdk-kernel v0.0.0-20230713061608-fde29282b01f
 	github.com/ghodss/yaml v1.0.0
 	github.com/golang/protobuf v1.5.3
 	github.com/google/uuid v1.3.0
