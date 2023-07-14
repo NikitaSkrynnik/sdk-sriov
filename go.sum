@@ -37,8 +37,8 @@ github.com/NikitaSkrynnik/api v1.0.1-0.20230711064101-51396a9946fc h1:yMHA//UiNx
 github.com/NikitaSkrynnik/api v1.0.1-0.20230711064101-51396a9946fc/go.mod h1:6va68ed+AyiYRSNK/RQ91XEZdYHDfb6xVyBzjVhlGVs=
 github.com/NikitaSkrynnik/sdk v0.5.1-0.20230713091735-3c7850b9a59a h1:jQ7S7cQERlKObYLpsb+SpUtSUKRuQg4/V3oe27z0Bpo=
 github.com/NikitaSkrynnik/sdk v0.5.1-0.20230713091735-3c7850b9a59a/go.mod h1:zmGb/Hc6WN95sfc0vf5cz6IdbsaY/t76jtFlaMnIrB8=
-github.com/NikitaSkrynnik/sdk-kernel v0.0.0-20230711065033-29e761706a65 h1:szatbbqTtSLdizdLKrUToYd3b35reSkFsWJiQZTcpEg=
-github.com/NikitaSkrynnik/sdk-kernel v0.0.0-20230711065033-29e761706a65/go.mod h1:xiadEF+u/9DIvZFRdmaGOHdugEDyueXgjcN8L3R4Jtw=
+github.com/NikitaSkrynnik/sdk-kernel v0.0.0-20230714062259-df299acf4624 h1:JLQw5pm2lJGV3qhe9wDSuqAHn388Y+mb8ajcxVqqQYI=
+github.com/NikitaSkrynnik/sdk-kernel v0.0.0-20230714062259-df299acf4624/go.mod h1:FsGdbCSc6Mkktq7x4+bNM8IDaNys3vlvx1deKeK8RJE=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
 github.com/OneOfOne/xxhash v1.2.8 h1:31czK/TI9sNkxIKfaUfGlU47BAxQ0ztGgd9vPyqimf8=
 github.com/OneOfOne/xxhash v1.2.8/go.mod h1:eZbhyaAYD41SGSSsnmcpxVoRiQ/MPUTjUdIIOT9Um7Q=
